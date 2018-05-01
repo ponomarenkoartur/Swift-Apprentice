@@ -62,5 +62,4 @@ appRatings.forEach { appRatings in
 let appsWithAverageRatingGreaterThenThree = averageRatings.filter({ $0.value > 3 }).map({ $0.key })
 
 appsWithAverageRatingGreaterThenThree
-
 //: [Next](@next)
